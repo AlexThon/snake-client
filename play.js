@@ -14,7 +14,7 @@ const connect = function() {
   conn.on('data', (data) => {
     console.log(data);
   });
-  conn.on('move', (move) => {
+  conn.on('move', (data) => {
     console.log(data);
   });
 
